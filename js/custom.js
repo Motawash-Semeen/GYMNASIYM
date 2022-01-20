@@ -31,7 +31,9 @@ jQuery(document).ready(function($) {
       time: 3000,
   });
 });
-
+$('.slick-next').html('<i class="fas fa-chevron-right" aria-hidden="true" ></i>');
+  
+$('.slick-prev').html('<i class="fas fa-chevron-left" aria-hidden="true" ></i>');
 
 
 
