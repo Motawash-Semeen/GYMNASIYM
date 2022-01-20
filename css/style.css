@@ -229,6 +229,9 @@
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
 }
+#banner .slick-slide {
+  margin: 0px;
+}
   .slick-dots li{
     display: inline-block;
     margin: 0 5px;
@@ -929,7 +932,7 @@ ul.tabs li.current{
 .sponser_main{
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
+  margin: 80px 0PX;
   position: relative;
 }
 .slick-slide{
