@@ -34,8 +34,58 @@
    
   }
 
+
+
+
   /* COMMON CSS END */
 
+/* SCROLL TO TOP START */
+
+  .apst-button {
+    display: block;
+    position: relative;
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #e23e38 !important;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+  .apst-button:hover {
+    background-color: #0C0C0C !important;
+}
+
+.apst-button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  transform: translate(-50%,-50%) rotate(-45deg) !important;
+  width: 12px !important;
+  height: 12px !important;
+  border-right: 4px solid #fff;
+  border-top: 4px solid #fff;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  -webkit-transform: translate(-50%,-50%) rotate(-45deg) !important;
+  -moz-transform: translate(-50%,-50%) rotate(-45deg) !important;
+  -ms-transform: translate(-50%,-50%) rotate(-45deg) !important;
+  -o-transform: translate(-50%,-50%) rotate(-45deg) !important;
+}
+
+
+/* SCROLL TO TOP END */
 
   /* NAV BAR PART START */
 
